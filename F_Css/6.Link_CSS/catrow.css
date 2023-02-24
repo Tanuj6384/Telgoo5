@@ -1,0 +1,30 @@
+/* 
+LINK IN CSS
+/* ------------------------------- 
+1)Link ::The (LINK) signifies unvisited hyperlinks.
+2)Visited :: The (Visited) signifies visited hyperlinks.
+3)hover :: The (hover) singifies an elmts that currently has the user's mouse pointer hovering over it.
+4) active :: The (active) signifies an element on which the user is currently clicking.
+
+*/
+/* ----(link)------------------------------------------ */
+a:link{
+    color: red;
+}
+
+/* ----(visited)-------------------------------------- */
+a:visited{
+    color: green;
+}
+
+/* ----(mouse over link)------------------------------- */
+a:hover{
+    color:blue;
+   font-size:100px;
+   transition: 3s;
+}
+
+/* ----(selected link)-------------------------------------- */
+a:active{
+    color:yellow;
+}

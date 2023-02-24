@@ -1,0 +1,22 @@
+/*
+ScrollBars
+----------------------------------------------------
+1)Visible ::(Allows the content to overflow the border of its containing element).
+
+2)Hidden :: (no scroll bar is visible).
+
+3)Scroll ::(The size of containing elemt does not change. but the scrollbars are added to allow the user to see the content).
+
+4)Auto :: (The purpose is the same as scroll, but the scrollbar will be shown if the content does overflow).
+*/
+*{
+   margin:0;
+   padding:0;
+
+}
+#rel{
+   width: 200px;
+   height:100px;
+   border:5px solid green;
+   overflow:scroll;
+}

@@ -1,0 +1,121 @@
+<!-- Page Layout Techniques
+
+(Using emantic tags for layout)
+(Using right tag)         Semantic        nonsemantic
+                        1)header   
+                        2)main              1)div
+                        3)footer            2)span                   
+    -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first page</title>
+</head>
+
+<body>
+<!-- <header>
+    <pre>
+        <p>
+            Education                          projects
+        </p>
+    </pre>
+</header> -->
+<header> 
+    <h1>My Portfolio</h1>
+</header>
+<!------------------------------------------------------------->
+<!--Inside main tag
+    Section Tag (for a sec on your page)       <section>
+    Article Tag (for a article on your page)   <article>
+    Aside Tag  (for content aside main content[ads])  <aside>
+    -->
+<main>
+    <section>Krishna Engineering college : B.Tech(Cse)</section>
+    <section>P.C institute  : PCM</section>
+
+    <article>Skills : Java || javascript || HTML || Css</article>
+
+    <aside>This is my ads</aside>   <!-- jisse seo ko pta ni lgraha hoga-->
+
+</main>
+<!-------------------------------------------------------------->
+<footer>
+    <h5>contact me at <b>tanuj@gmail.com</b></h5>
+</footer>
+<!--------------------------------------------------------->
+<!--  revisiting anchor tag-->
+<a href="www.google.com"target="_main">googel<a/> <!--(target) new tab open--><br/>
+
+<a href="https://www.google.com/"target="_main"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Google_Images_2015_logo.svg/800px-Google_Images_2015_logo.svg.png" 
+    alt="google" 
+    height="50"></a>
+<!----------------------------------------------------------------->
+      <!-- Non Semantic -->
+<!--   Div -->   
+<!-- Div is a container used for  other HTML elements 
+  Block element (takes full width)
+-->
+<div>
+<p>welcome to my site</p>
+<p>welcomt to my world</p>
+</div>
+<!--  Span  --><hr/>
+<!--span is also a container used for other html elemets
+inlie element (takes width as per size)
+-->
+<span>
+Ghaziabad
+</span>
+<!-- ---------------------------------------------------------------------------------- -->
+<!-- LIST & TABLE & FORMS -->
+<!-- ----------------------------------------------------------------------- -->
+    <!-- <LIST -------(UNordered & Ordered->
+<!-1)UNorderd lsit -->
+        <ul>                                       
+            <li>home</li>
+            <li>about</li>
+            <li>srevices</li>
+            <li>contact</li>
+        </ul>
+                        <!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+                        <ul type="square"> <!--(square box showing)-->
+                                <li>home</li>
+                                <li>about</li>
+                                <li>srevices</li>
+                                <li>contact</li>
+                        </ul>
+        <!-- --------------------------------------------------------- -->
+        <!-- Ordered List -->
+        <ol>
+            <li>name</li>
+            <li>class</li>
+            <li>subject</li>
+        </ol>
+                                <!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+                             <ol type="I"> <!--(Roman value)-->
+                                    <li>home</li>
+                                    <li>about</li>
+                                    <li>srevices</li>
+                                    <li>contact</li>
+                            </ul>
+                            
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+            <ol>
+                <li>Student list</li>
+                    <ul>
+                        <li>Tanuj</li>
+                        <li>Gaurav</li>
+                        <li>Akram</li>
+                    </ul>
+                <li>Rupess</li>
+                        <ol type="I">
+                            <li>ONE</li>
+                            <li>TWO</li>
+                        </ol>
+            </ol>
+<!-- ---------------------------------------------------------           -->
+</body>
+</html>

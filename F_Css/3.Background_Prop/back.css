@@ -1,0 +1,32 @@
+/*
+CSS Background Properties
+-----------------------------------------------------------------
+@@@@@@@@@@@@@@@@@@@@@@
+color::::(background-color)::::::::::
+@@@@@@@@@@@@@@@@@@@@@@
+1) a valid color name -like-"Red"
+2) a Hex value -like- "/*#ff0000(RED)| #00ff00(GREEN)| ##0000ff(BLACK) [hexadecimal]"
+3) an RGB Value - "rgb(red,green,blue);"
+@@@@@@@@@@@@@@@@@@@@@@@@@
+background-image:::::::::::
+@@@@@@@@@@@@@@@@@@@@@@@@@@
+background-image: url(logo.png); (backgrnd imge k liye)
+background-repeat:no-repeat;   (not repeat k liye)
+background-size:100% 100%; (fixed image in centre)
+background-attachment: fixed; (fixed image in centre)
+
+*/
+*{
+    margin:0;
+    padding:0;
+}
+.backimg{
+    width:100%;
+    height:100vh;
+    /* background-color: red; */
+    background-image:url(image.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+
+}

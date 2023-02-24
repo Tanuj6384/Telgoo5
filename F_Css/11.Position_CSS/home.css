@@ -1,0 +1,48 @@
+/*
+Positon in css
+-------------------------------------------------
+1)relative ::(A relative positioned elemt is posn relative ro its normal positon).
+
+2)absolute :: (An absolute posn elemnt positoned relative to the first parent elemnt that has a position other than static).
+
+*/
+.father{
+    width: 600px;
+    height: 300px;
+    background-color: red;
+    position:relative;
+}
+
+.child1{
+    width: 100px;
+    height:60px;
+    background-color: orange;
+    position:absolute;
+    left:0;
+}
+
+.child2{
+    width: 100px;
+    height:60px;
+    background-color: white;
+    position:absolute;
+    right:0;
+}
+
+.child3{
+    width: 100px;
+    height:60px;
+    background-color: green;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+.child4{
+    width: 100px;
+    height:60px;
+    background-color: blue;
+    position:absolute;
+    bottom:0;
+    left:0;
+}

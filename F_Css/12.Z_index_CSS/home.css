@@ -1,0 +1,51 @@
+/*
+------------------------------------------------------
+Z-index
+-----------------------------------------------------
+@The Z-index property specifies the stack order of an element.
+
+@An element with greater stack order is always in front of an element with a lower stack order.
+
+@NOTE:::: Z-index only works on position elements (position:absolute, position:relative, or position:fixed).
+
+*/
+.father{
+    width: 600px;
+    height: 300px;
+    background-color: red;
+    position:relative;
+}
+
+.child1{
+    width: 100px;
+    height:60px;
+    background-color: orange;
+    position:absolute;
+    z-index:1;
+    
+}
+
+.child2{
+    width: 100px;
+    height:60px;
+    background-color: white;
+    position:absolute;
+    z-index: 2;
+  
+}
+
+.child3{
+    width: 100px;
+    height:60px;
+    background-color: green;
+    position:absolute;
+    
+}
+
+.child4{
+    width: 100px;
+    height:60px;
+    background-color: blue;
+    position:absolute;
+
+}

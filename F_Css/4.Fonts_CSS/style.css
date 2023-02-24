@@ -1,0 +1,29 @@
+/*
+-----------------------------------------------------------------
+Fonts CSS
+-----------------------------------------------------------------
+1)font-family. (Change the face of a font)
+2)font-style.  (make a font italic & oblique)
+3)font-size.   (sets the size of the text)
+4)font-weight. (specifies the weight of a font)
+5)font-variant.(create a small-caps effect)
+*/
+
+/* ~~~~~~( style )~~~~~~~~~~~~~ */
+#styls{
+    font-style:italic;
+}
+
+
+/* ~~~( size )~~~~~~~~~~~~~~~~~ */
+ #size{
+    font-size:60px;
+ }
+
+
+ /* ~~~~( weight )~~~~~~~~~~~~~~~~ */
+ #weight{ 
+    font-weight:10;
+ }
+
+ 

@@ -1,0 +1,33 @@
+/* 
+Two Type of selector:::::
+1)Id Selector    2)Class selector
+----------------------------------------------------
+1) Id Selctor::
+        The id selector is used to specify a style for a single, unique element.
+        ~~~~~~~~~~~~~~~~~~~
+            #idname{
+                color:black;
+            }
+        ~~~~~~~~~~~~~~~~~~~
+2) Class Selector::
+        The Class selector is used to specify a style for a group of element.
+        ~~~~~~~~~~~~~~~~~~~
+             .classname{
+                color:black;
+            }
+        ~~~~~~~~~~~~~~~~~~~
+ -------------------------------------------------------
+ */
+ 
+ /* id */
+ #first{
+    color:white;
+    background-color:black;
+ }
+
+ /* Class */
+ .first{
+    color:pink;
+    background-color: green;
+ }
+

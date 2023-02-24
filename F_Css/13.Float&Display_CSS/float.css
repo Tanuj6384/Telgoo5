@@ -1,0 +1,55 @@
+/*
+---------------------------------------------
+float CSS
+---------------------------------------------
+1)Left :: (The elemnt floats to the left of its container).
+
+2)right :: (The element floats to the right of its container).
+
+--------------------------------------------
+ Display css
+--------------------------------------------
+*/
+*{
+    padding:0;
+    margin:0;
+}
+
+.header{
+    width:100%;
+    height:80px;
+    background-color: black;
+}
+
+.logo{
+    width:30%;
+    height:80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: orange;
+    float: left; 
+}
+
+.menu{
+    width:70%;
+    height: 80px;
+    line-height: 80px;
+    background-color: blueviolet;
+    float:right;
+    
+}
+
+/* ------------Display-------------------------- */
+ul{
+    list-style: none;
+    text-align:right;
+}
+
+li{
+    display:inline-block;
+    border:4px solid black;
+    height: 70px;
+    padding:0px 10px 0px 10px;
+    border-radius:5;
+    
+}
